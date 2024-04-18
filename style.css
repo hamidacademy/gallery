@@ -1,0 +1,46 @@
+.master{
+    background-color: aqua;
+    width: 1060px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
+    
+    
+}
+
+
+.dstyle01{
+    width: 170px;
+    float: left;
+    margin: 2px;
+    border: 1px solid red;
+    border-radius: 10px;
+    transition: all 1s;
+    opacity: 0.3;
+}
+
+.dstyle01 img {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px 10px 0px 0px;
+    transition: all 1s;
+}
+
+.dstyle01 img:hover{
+    border-radius: 40px 40px 0px 0px;
+    
+}
+
+.dstyle01:hover{
+    border: 2px solid blue;
+    border-radius: 40px;
+    opacity: 1;
+}
+
+
+.pstyle01{
+   text-align: center;
+    
+}
